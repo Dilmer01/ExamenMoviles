@@ -8,7 +8,6 @@ router.get('/',(req,res)=>{
     res.send('Bienvenido');
 });
 
-//Post
 
 router.get('/post', getPost);
 router.get('/buscar/:id', buscarPost);
